@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<!-- Created by CodingLab |www.youtube.com/c/CodingLabYT-->
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="UTF-8">
+  <title> Responsive Sidebar Menu | CodingLab </title>
+  <link rel="stylesheet" href="assets/css/style.css">
+  <!-- Boxicons CDN Link -->
+  <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body class="home">
+  <div class="sidebar">
+    <div class="logo-details">
+      <i class='bx bx-coffee'></i>
+      <div class="logo_name">Agenda</div>
+      <i class='bx bx-menu' id="btn"></i>
+    </div>
+    <ul class="nav-list">
+
+      <li>
+        <a href="agenda.html">
+          <i class='bx bxs-contact'></i>
+          <span class="links_name">Contactos</span>
+        </a>
+        <span class="tooltip">Dashboard</span>
+      </li>
+      <li>
+        <a href="Ccontacto.html">
+          <i class='bx bx-user'></i>
+          <span class="links_name">User</span>
+        </a>
+        <span class="tooltip">User</span>
+      </li>
+      <li>
+        <a href="#">
+          <i class='bx bx-chat'></i>
+          <span class="links_name">Messages</span>
+        </a>
+        <span class="tooltip">Messages</span>
+      </li>
+      <li>
+        <a href="#">
+          <i class='bx bx-pie-chart-alt-2'></i>
+          <span class="links_name">Analytics</span>
+        </a>
+        <span class="tooltip">Analytics</span>
+      </li>
+      <li>
+        <a href="#">
+          <i class='bx bx-folder'></i>
+          <span class="links_name">File Manager</span>
+        </a>
+        <span class="tooltip">Files</span>
+      </li>
+      <li>
+        <a href="#">
+          <i class='bx bx-cart-alt'></i>
+          <span class="links_name">Order</span>
+        </a>
+        <span class="tooltip">Order</span>
+      </li>
+      <li>
+        <a href="#">
+          <i class='bx bx-heart'></i>
+          <span class="links_name">Saved</span>
+        </a>
+        <span class="tooltip">Saved</span>
+      </li>
+    </ul>
+  </div>
+  <section class="home-section">
+    <div class="contacts table" aria-labelledby="contacts-caption-text">
+      <span class="caption" id="contacts-caption-text"><strong>Contactos</strong> </span>
+      <div class="contacts-header thead">
+        <span class="th" id="th-name">Nombre:</span>
+        <span class="th" id="th-org">Apellido:</span>
+        <span class="th" id="th-phone">Telefono:</span>
+        <span class="th" id="th-email">Correo:</span>
+      </div>
+      <ul class="tbody">
+        <li class="tr" itemscope itemtype="http://schema.org/Person">
+          <span class="td">
+            <span class="label">Nombre</span>
+            <span class="data" itemprop="name" aria-labelledby="th-name"><a href="Ccontacto.html">Pablo
+                Santiago</a></span>
+          </span>
+          <span class="td" itemscope itemtype="http://schema.org/Organization">
+            <span class="label">Apellido:</span>
+            <span class="data" itemprop="name" aria-labelledby="th-org">Ruiz Estrada</span>
+          </span>
+          <span class="td">
+            <span class="label">Telefono:</span>
+            <span class="data" itemprop="telephone" aria-labelledby="th-phone">+502 41345677</span>
+          </span>
+          <span class="td">
+            <span class="label">Correo:</span>
+            <span class="data" itemprop="email" aria-labelledby="th-email">Santiago75@gmail.com</span>
+          </span>
+        </li>
+      </ul>
+      <ul class="tbody">
+        <li class="tr" itemscope itemtype="http://schema.org/Person">
+          <span class="td">
+            <span class="label">Nombre</span>
+            <span class="data" itemprop="name" aria-labelledby="th-name"><a href="Ccontacto.html">Carla Paola</a></span>
+          </span>
+          <span class="td" itemscope itemtype="http://schema.org/Organization">
+            <span class="label">Apellido:</span>
+            <span class="data" itemprop="name" aria-labelledby="th-org">Saldana Ruiz</span>
+          </span>
+          <span class="td">
+            <span class="label">Telefono:</span>
+            <span class="data" itemprop="telephone" aria-labelledby="th-phone">+502 41325687</span>
+          </span>
+          <span class="td">
+            <span class="label">Correo:</span>
+            <span class="data" itemprop="email" aria-labelledby="th-email">SRuiz@gmail.com</span>
+          </span>
+        </li>
+      </ul>
+      <ul class="tbody">
+        <li class="tr" itemscope itemtype="http://schema.org/Person">
+          <span class="td">
+            <span class="label">Nombre</span>
+            <span class="data" itemprop="name" aria-labelledby="th-name"><a href="Ccontacto.html">Carla Paola</a></span>
+          </span>
+          <span class="td" itemscope itemtype="http://schema.org/Organization">
+            <span class="label">Apellido:</span>
+            <span class="data" itemprop="name" aria-labelledby="th-org">Saldana Ruiz</span>
+          </span>
+          <span class="td">
+            <span class="label">Telefono:</span>
+            <span class="data" itemprop="telephone" aria-labelledby="th-phone">+502 41325687</span>
+          </span>
+          <span class="td">
+            <span class="label">Correo:</span>
+            <span class="data" itemprop="email" aria-labelledby="th-email">SRuiz@gmail.com</span>
+          </span>
+        </li>
+      </ul>
+
+      <ul class="tbody">
+        <li class="tr" itemscope itemtype="http://schema.org/Person">
+          <span class="td">
+            <span class="label">Nombre</span>
+            <span class="data" itemprop="name" aria-labelledby="th-name"><a href="Ccontacto.html">Carla Paola</a></span>
+          </span>
+          <span class="td" itemscope itemtype="http://schema.org/Organization">
+            <span class="label">Apellido:</span>
+            <span class="data" itemprop="name" aria-labelledby="th-org">Saldana Ruiz</span>
+          </span>
+          <span class="td">
+            <span class="label">Telefono:</span>
+            <span class="data" itemprop="telephone" aria-labelledby="th-phone">+502 41325687</span>
+          </span>
+          <span class="td">
+            <span class="label">Correo:</span>
+            <span class="data" itemprop="email" aria-labelledby="th-email">SRuiz@gmail.com</span>
+          </span>
+        </li>
+      </ul>
+      <ul class="tbody">
+        <li class="tr" itemscope itemtype="http://schema.org/Person">
+          <span class="td">
+            <span class="label">Nombre</span>
+            <span class="data" itemprop="name" aria-labelledby="th-name"><a href="Ccontacto.html">Carla Paola</a></span>
+          </span>
+          <span class="td" itemscope itemtype="http://schema.org/Organization">
+            <span class="label">Apellido:</span>
+            <span class="data" itemprop="name" aria-labelledby="th-org">Saldana Ruiz</span>
+          </span>
+          <span class="td">
+            <span class="label">Telefono:</span>
+            <span class="data" itemprop="telephone" aria-labelledby="th-phone">+502 41325687</span>
+          </span>
+          <span class="td">
+            <span class="label">Correo:</span>
+            <span class="data" itemprop="email" aria-labelledby="th-email">SRuiz@gmail.com</span>
+          </span>
+        </li>
+      </ul>
+
+
+      <br>
+      <button class="agregar">Nuevo Contacto</button>
+      </ul>
+    </div>
+  </section>
+
+  <script src="assets/js/script.js"></script>
+
+</body>
+
+</html>

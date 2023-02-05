@@ -318,6 +318,17 @@
   padding: 10px 20px;
 
 }
+
+.regresar {
+  background-color: blue;
+  position: absolute;
+  right: 0;
+  left: 0;
+  color: white;
+  border-radius: 20px 20px 20px 20px;
+  padding: 10px 20px;
+
+}
 .agregar:active {
   transform: translateY(8px);
 }
@@ -393,14 +404,14 @@ form h3{
   font-weight: 500;
   margin-left: 10px;
 }
-.input-box.button input{
+.input-box.button button{
   color: #fff;
   letter-spacing: 1px;
   border: none;
   background: #4070f4;
   cursor: pointer;
 }
-.input-box.button input:hover{
+.input-box.button button:hover{
   background: #0e4bf1;
 }
 form .text h3{

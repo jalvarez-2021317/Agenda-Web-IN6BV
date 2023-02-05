@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<!-- Created by CodingLab |www.youtube.com/c/CodingLabYT-->
+<html lang="en" dir="ltr">
+
+<head>
+    <meta charset="UTF-8">
+    <title> Nuevo Contacto</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <!-- Boxicons CDN Link -->
+    <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body class="home">
+    <div class="sidebar">
+        <div class="logo-details">
+          <i class='bx bx-coffee'></i>
+          <div class="logo_name">Agenda</div>
+          <i class='bx bx-menu' id="btn"></i>
+        </div>
+        <ul class="nav-list">
+      
+          <li>
+            <a href="agenda.html">
+              <i class='bx bxs-contact'></i>
+              <span class="links_name">Contactos</span>
+            </a>
+            <span class="tooltip">Contactos</span>
+          </li>
+          <li>
+            <a href="pefil.html">
+              <i class='bx bx-user'></i>
+              <span class="links_name">User</span>
+            </a>
+            <span class="tooltip">User</span>
+          </li>
+          <li>
+            <a href="favoritos.html">
+                <i class='bx bx-star'></i>
+              <span class="links_name">Favoritos</span>
+            </a>
+            <span class="tooltip">Favoritos</span>
+          </li>
+          <li>
+            <a href="tareas.html">
+                <i class='bx bx-task' ></i>
+              <span class="links_name">Pendientes</span>
+            </a>
+            <span class="tooltip">Pendientes</span>
+          </li>
+        </ul>
+      </div>
+    <section class="home-section">
+      <div class="contacts table" aria-labelledby="contacts-caption-text">
+        <span class="caption" id="contacts-caption-text"><strong>Contactos</strong> </span>
+        <div class="contacts-header thead">
+          <span class="th" id="th-name">Nombre:</span>
+          <span class="th" id="th-org">Apellido:</span>
+          <span class="th" id="th-phone">Telefono:</span>
+          <span class="th" id="th-email">Correo:</span>
+          <span class="th" id="th-name">Direccion</span>
+        </div>
+        <ul class="tbody">
+          <li class="tr" itemscope itemtype="http://schema.org/Person">
+            <span class="td">
+              <span class="label">Nombre</span>
+              <span class="data" itemprop="name" aria-labelledby="th-name"><a href="Ccontacto.html">Maria
+                  Soledad</a></span>
+            </span>
+            <span class="td" itemscope itemtype="http://schema.org/Organization">
+              <span class="label">Apellido:</span>
+              <span class="data" itemprop="name" aria-labelledby="th-org">Romero Aldana</span>
+            </span>
+            <span class="td">
+              <span class="label">Telefono:</span>
+              <span class="data" itemprop="telephone" aria-labelledby="th-phone">+502 25674891</span>
+            </span>
+            <span class="td">
+              <span class="label">Correo:</span>
+              <span class="data" itemprop="email" aria-labelledby="th-email">Soledad47@gmail.com</span>
+            </span>
+            <span class="td">
+              <span class="label">Direccion:</span>
+              <span class="data" itemprop="name" aria-labelledby="th-name">zona 41 calle 41-65</span>
+            </span>
+          </li>
+        </ul>
+  
+        <ul class="tbody">
+          <li class="tr" itemscope itemtype="http://schema.org/Person">
+            <span class="td">
+              <span class="label">Nombre</span>
+              <span class="data" itemprop="name" aria-labelledby="th-name"><a href="Ccontacto.html">Ana
+                  Gabriela</a></span>
+            </span>
+            <span class="td" itemscope itemtype="http://schema.org/Organization">
+              <span class="label">Apellido:</span>
+              <span class="data" itemprop="name" aria-labelledby="th-org">Sontai Garcia</span>
+            </span>
+            <span class="td">
+              <span class="label">Telefono:</span>
+              <span class="data" itemprop="telephone" aria-labelledby="th-phone">+502 14963500</span>
+            </span>
+            <span class="td">
+              <span class="label">Correo:</span>
+              <span class="data" itemprop="email" aria-labelledby="th-email">LuiSontai@gmail.com</span>
+            </span>
+            <span class="td">
+              <span class="label">Direccion:</span>
+              <span class="data" itemprop="name" aria-labelledby="th-name">zona 45 calle 14-65</span>
+            </span>
+          </li>
+        </ul>
+       
+  
+        <br>
+        <button class="agregar"><a href="agenda.html">Regresar</a></button>
+        </ul>
+      </div>
+    </section>
+
+    <script src="assets/js/script.js"></script>
+
+</body>
+
+</html>
